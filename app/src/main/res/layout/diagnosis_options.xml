@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiagnosisOptions">
+
+    <Button
+        android:id="@+id/autoSet"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#CDDC39"
+        android:onClick="loadAutoSetPage"
+        android:text="@string/auto_set"
+        android:textColor="#000000"
+        app:iconTint="#CDDC39"
+        app:layout_constraintBottom_toTopOf="@+id/manualSet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/manualSet"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#CDDC39"
+        android:onClick="loadManualSetPage"
+        android:text="@string/manual_set"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/backToDashboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backToDashboard"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#CDDC39"
+        android:onClick="loadDashboardPage"
+        android:text="@string/back_to_dashboard"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
