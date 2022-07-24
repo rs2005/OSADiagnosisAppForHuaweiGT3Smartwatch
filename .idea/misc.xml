@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/about_osa.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/auto_set.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/auto_set_wait.xml" value="0.33" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/diagnosis.xml" value="0.32518115942028986" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/diagnosis_auto_set.xml" value="0.32518115942028986" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/diagnosis_manual_set.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/diagnosis_options.xml" value="0.3359375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/manual_set.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/manual_set_wait.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/negative_osa.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/OSADiagnosisAppForHuaweiGT3Smartwatch/app/src/main/res/layout/positive_osa.xml" value="0.24003623188405798" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

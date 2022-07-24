@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualSetWait">
+
+    <Button
+        android:id="@+id/backToDashboard5"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#CDDC39"
+        android:onClick="loadDashboardPage"
+        android:text="@string/back_to_dashboard"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backToManualSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="76dp"
+        android:clickable="true"
+        android:contentDescription="@string/back_to_previous_screen"
+        android:focusable="true"
+        android:foregroundTint="#FFFFFF"
+        android:onClick="loadManualSetPage"
+        app:backgroundTint="#CDDC39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#FFFFFF"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+</androidx.constraintlayout.widget.ConstraintLayout>
